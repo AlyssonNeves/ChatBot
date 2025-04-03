@@ -1,0 +1,40 @@
+chatbot-pdf/
+│
+├── inputs/
+│   └── exemplos.txt       # Sentenças ou conteúdo dos PDFs para testes iniciais
+│
+├── app/
+│   ├── main.py            # Código principal da aplicação
+│   ├── pdf_loader.py      # Função para carregar e extrair texto dos PDFs
+│   ├── vector_store.py    # Função para gerar embeddings e armazenar vetores
+│   ├── chatbot.py         # Lógica do chatbot (RAG ou similar)
+│   └── utils.py           # Funções auxiliares
+│
+├── requirements.txt       # Bibliotecas necessárias
+├── README.md              # Documentação do projeto
+└── .gitignore             # Arquivos a ignorar no versionamento
+
+
+⚙️ Tecnologias Indicadas
+Python 3.10+
+
+LangChain ou LlamaIndex
+
+FAISS, ChromaDB ou Pinecone (armazenamento vetorial)
+
+OpenAI ou HuggingFace (para embeddings e respostas)
+
+PyMuPDF ou pdfplumber (para leitura de PDFs)
+
+Streamlit ou Gradio (para interface interativa)
+
+🚀 Passos de Desenvolvimento
+1. 📥 Leitura e Extração de Texto
+Use uma lib como PyMuPDF para extrair conteúdo dos PDFs:
+
+2. 🧠 Geração de Embeddings e Armazenamento Vetorial
+
+3. 💬 Criando o Chatbot (RAG)
+
+4. 🖥️ Interface Interativa (opcional)
+Use Streamlit para criar uma interface:
